@@ -1,5 +1,4 @@
 import random
-flag = 'Y'
 
 
 RandomNum = random.randint(0, 100)
