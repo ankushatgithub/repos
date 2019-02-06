@@ -3,7 +3,7 @@ flag = 'Y'
 
 
 RandomNum = random.randint(0, 100)
-print (RandomNum)
+# print (RandomNum)
 times = 0
 InputNum = int(input("Enter the random number between 1 to 100: "))
 times += 1
