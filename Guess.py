@@ -10,7 +10,7 @@ if RandomNum == InputNum:
     print("Congrats !!!! Your guessed it right in 1st attempt :)")
 while RandomNum != InputNum:
     if times >= 3:
-        print("Sorry !!! Number of attempts exceeded ...")
+        print("Sorry !!! Number of attempts exceeded ... Correct Number was %s" % RandomNum)
         break
     if RandomNum < InputNum:
         print("oops !! that was not quite right. Try little lower number...")
